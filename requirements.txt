@@ -1,2 +1,2 @@
-wheel>=0.37.1
-git+https://github.com/secdev/scapy.git@master#scapy
+wheel==0.37.1
+-e git+https://github.com/secdev/scapy.git@e457fd161ea8111d7d7c08625e333d0f12ee51cc#egg=scapy
