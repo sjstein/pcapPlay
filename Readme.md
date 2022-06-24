@@ -33,4 +33,13 @@ python pcapPlay <pcap filename> -d <delay>, -i <addr>, -p <port>
 
 As of June 24, 2022 - the scapy library installed via `pip install` direct from PyPI contains a known [bug](https://stackoverflow.com/questions/67947076/problems-reading-a-pcap-file-in-python-using-scapy) which prevents this tool from running. To circumvent that the requirements.txt file within this repo specifies installing the scapy library via a git repo. In the future, I hope the installation at PyPI will be sufficient.
 
+After creation of the python virtual environment, complete the pip install specifying the requirements.txt file as the source:
+
+e.g. for *nix like OS:
+> $ python -m venv <path_to_your_virtual_environment_directory>
+> 
+> $ source <path_to_your_virtual_environment_directory>/bin/activate
+> 
+> $ pip install -r requirements.txt
+
 
